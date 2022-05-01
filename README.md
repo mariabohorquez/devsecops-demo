@@ -1,41 +1,10 @@
-Vulnerable Node
-===============
+### Disclaimer
 
-![Logo](https://raw.githubusercontent.com/cr0hn/vulnerable-node/master/images/logo-small.png)
+The base code of this project comes from this repo: https://github.com/cr0hn/vulnerable-node. Credits to @ggdaniel for his work on it.
 
-*Vulnerable Node: A very vulnerable web site written in NodeJS*
+## Project
 
-Codename | PsEA
--------- | ----
-Version | 1.0
-Code | https://github.com/cr0hn/vulnerable-node
-Issues | https://github.com/cr0hn/vulnerable-node/issues/
-Author | Daniel Garcia (cr0hn) - @ggdaniel
-
-# Support this project
-
-Support this project (to solve issues, new features...) by applying the Github "Sponsor" button.
-
-# What's this project?
-
-The goal of this project is to be a project with really vulnerable code in NodeJS, not simulated.
-
-## Why?
-
-Similar project, like OWASP Node Goat, are pretty and useful for learning process but not for a real researcher or studding vulnerabilities in source code, because their code is not really vulnerable but simulated.
-
-This project was created with the **purpose of have a project with identified vulnerabilities in source code with the finality of can measure the quality of security analyzers tools**.
-
-Although not its main objective, this project also can be useful for:
-
-- Pentesting training.
-- Teaching: learn how NOT programming in NodeJS.
-
-The purpose of project is to provide a real app to test the quality of security source code analyzers in white box processing.
-
-## How?
-
-This project simulates a real (and very little) shop site that has identifiable sources points of common vulnerabilities.
+Further changes to this repository are for a security course for Universidad Argentina de la Empresa (UADE). We will test how many vulnerabilities we can catch with different tools in the CI.
 
 ## Installation
 
@@ -67,14 +36,6 @@ To access to website you can use displayed in landing page:
 - admin : admin
 - roberto : asdfpiuw981
 
-Here some images of site:
-
-![home screen](https://raw.githubusercontent.com/cr0hn/vulnerable-node/master/images/home.jpg)
-
-![shopping](https://raw.githubusercontent.com/cr0hn/vulnerable-node/master/images/shop.jpg)
-
-![purchased products](https://raw.githubusercontent.com/cr0hn/vulnerable-node/master/images/purchased.jpg)
-
 # Vulnerabilities
 
 ## Vulnerability list:
@@ -89,17 +50,6 @@ This project has the most common vulnerabilities of `OWASP Top 10 <https://www.o
 - A6  - Sensitive Data Exposure
 - A8  - Cross-Site Request Forgery (CSRF)
 - A10 - Unvalidated Redirects and Forwards
-
-## Vulnerability code location
-
-The exactly code location of each vulnerability is pending to write
-
-# References
-
-I took ideas and how to explode it in NodeJS using these references:
-
-- https://blog.risingstack.com/node-js-security-checklist/
-- https://github.com/substack/safe-regex
 
 # License
 
